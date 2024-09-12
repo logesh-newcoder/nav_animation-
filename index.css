@@ -41,6 +41,10 @@ body{
 .con span{
     position: relative;
 }
+a{
+    color: white;
+    text-decoration: none;
+}
 .con span::after{
     content:"";
     position: absolute;
@@ -86,11 +90,12 @@ body{
 }
 @media screen  and (max-width:450px){
     .par{
-        width: 80%;
+        width: 90%;
         padding: 10px;
     }
     .con{
-        font-size: 0.7rem;
+        font-size: 0.6rem;
+        padding: 10px;
         font-weight: bold;
     }
 }
